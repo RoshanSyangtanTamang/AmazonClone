@@ -9,6 +9,8 @@
     background-color: black;
     color: white;
     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .nav-logo {
@@ -33,4 +35,76 @@
 }
 
 /* Box 2 */
+.add-first {
+    color: #cccccc;
+    font-size: 0.80rem;
+    margin-left: 13px;
+}
 
+.add-sec {
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+/* Box 3 */
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(216, 247, 107);
+    width: 650px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 50px;
+    text-align: center;
+    border: none;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: black;
+}
+
+.nav-search:hover {
+    border: 2px solid orange;
+}
+
+/* Box 4 */
+span {
+    font-size: 0.80rem;
+}
+
+.nav-sec {
+    font-size: 1rem;
+    font-weight: 550;
+}
+
+/* Box 5 */
+.nav-cart i {
+    font-size: 30px;
+}
+
+.nav-cart {
+    font-size: 1rem;
+    font-weight: 700;
+}
