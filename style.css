@@ -5,7 +5,7 @@
 }
 
 .navbar {
-    height: 70px;
+    height: 66px;
     background-color: black;
     color: white;
     display: flex;
@@ -107,4 +107,51 @@ span {
 .nav-cart {
     font-size: 1rem;
     font-weight: 700;
+}
+
+/* Panel */
+.panel {
+    height: 40px;
+    background-color: #123838;
+    color: rgb(252, 227, 227);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-ops p {
+    display: inline;
+    margin-left: 20px;
+}
+
+.panel-ops {
+    width: 75%;
+    font-size: 0.85rem;
+}
+
+.panel-deal {
+    font-size: 0.9rem;
+    font-weight: 550;
+}
+
+/* hero section */
+.hero-section {
+    background-image: url("heroimage.jpg");
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-msg {
+    background-color: white;
+    color: black;
+    width: 85%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    margin-bottom: 30px;
 }
