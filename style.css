@@ -253,6 +253,10 @@ ul a {
     padding-top: 25px;
 }
 
+.pages a {
+    margin: 5px;
+}
+
 .copyright {
     padding: 7px;
 }
